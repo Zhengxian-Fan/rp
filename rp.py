@@ -47,8 +47,8 @@ from tqdm import tqdm
 
 file_config = {
         'vocab': '/home/zhengxian/BEHRT/Data/GeneralVocDMProc_25k',
-    'fulld': '/home/zhengxian/flan_t5/data_new_random/test.parquet',
-    'testd': '/home/zhengxian/flan_t5/data_censored_null/test_730_cohort.parquet',
+    'fulld': '/home/zhengxian/flan_t5/data_new_random/train.parquet',
+    'testd': '/home/zhengxian/flan_t5/data_new_random/test.parquet',
     #'fulld': '/gpfs3/well/rahimi/users/gra027/JNb/general_model_newCutCPRD/Data/MLM_for_pretraining_28M_1985_2020__unique_per6m_50pc_sample___10kdebug.parquet/',
     'yearVocab':  '/home/zhengxian/BEHRT/Data/yearVoc_1985_2021',
 }
