@@ -112,7 +112,7 @@ model_config = {
 }
 conf = BertConfig(model_config)
 model = BertRP(conf, num_labels=1)
-output_model_file = os.path.join(global_params['output_dir'], "HF_RP_new_pheno_no_proc_null_slen250_6msummary.bin")
+output_model_file = os.path.join(global_params['output_dir'], "MLM_CEHR_newcut1985_2020_DMProc__6msummary.bin")
 torch.load(output_model_file)
 model = toLoad(model, output_model_file)
 model = model.to(global_params['device'])
